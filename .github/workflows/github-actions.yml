@@ -26,6 +26,8 @@ jobs:
         run: npm run coverage
 
       - name: Coveralls
+        env:
+          NODE_COVERALLS_DEBUG: 1
         uses: coverallsapp/github-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
