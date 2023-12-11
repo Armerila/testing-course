@@ -20,10 +20,7 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run tests and generate Mochawesome report
-      run: npm run test
-
-    - name: Run tests and generate Mochawesome report
+    - name: Coverage
       run: npm run coverage
 
     - name: Coveralls
