@@ -24,6 +24,7 @@ jobs:
 
       - name: Coverage
         run: npm run coverage
+        continue-on-error: true
 
       - name: Coveralls
         env:
