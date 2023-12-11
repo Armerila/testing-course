@@ -1,3 +1,6 @@
+[![Coverage Status](https://coveralls.io/repos/github/Armerila/testing-course/badge.svg?branch=main)](https://coveralls.io/github/Armerila/testing-course?branch=main)
+
+
 # Student template
 
 ## Purpose of this repository
