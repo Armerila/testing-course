@@ -23,6 +23,9 @@ jobs:
     - name: Run tests and generate Mochawesome report
       run: npm run test
 
+    - name: Run tests and generate Mochawesome report
+      run: npm run coverage
+
     - name: Coveralls
       uses: coverallsapp/github-action@v2
 
